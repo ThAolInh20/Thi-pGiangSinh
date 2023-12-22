@@ -1,0 +1,25 @@
+.snow-of-mouse {
+    position: fixed;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    pointer-events: none;
+    cursor: none;
+    animation: snowfall linear infinite, fallAndFade 5s forwards;
+  }
+
+  @keyframes fallAndFade {
+    0% {
+      transform: translateY(0) rotate(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(50vh) rotate(180deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }

@@ -1,0 +1,78 @@
+body{
+    background-image: url('../../image/background/anh1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius:50% ;
+    background-color: rgb(250, 250, 250);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    cursor: none;
+}
+.merry-christmas{
+    position: fixed;
+  top: 60px;
+  left: 450px;
+  height: 100px;
+}
+.merry-christmas ul{
+    display: flex;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.merry-christmas ul li{
+    list-style: none;   
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: .05em;
+     /* text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2); */
+     color: #ffffff;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 2px 2px 4px #000000;
+     transition: color 0.85s ease-in-out; /* Thêm hiệu ứng chuyển đổi màu */
+}
+.year {
+    position: fixed;
+    top:145px;
+    right: 450px;
+}
+.year{
+    height: 70px;
+}
+.year ul{
+    list-style: none;
+    display: flex;
+}
+.year ul li{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: .05em;
+    color: #ffffff;
+     -webkit-text-stroke: 1px #ffffff;
+     text-shadow: 2px 2px 4px #eedfdf;
+     transition: color 0.85s ease-in-out; /* Thêm hiệu ứng chuyển đổi màu */
+}
+#musicPlayer{
+    position: fixed;
+    width: 200px;
+    right:0px;
+    bottom: 0px;
+}
+#musicPlayer audio{
+    width: 150px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+    

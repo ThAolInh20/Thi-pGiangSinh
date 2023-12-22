@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương 2</title>
+    <script src="../../snowstorm.js"></script>
+    <link rel="stylesheet" href="chuong2.css">
+    <div class="cursor">
+    </div>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="../../snow_of_mouse/style-snow.css">
+</head>
+<body >
+    <div class="merry-christmas">
+        <ul>
+            
+            <li  class="m0">M</li>
+            <li  class="m0">E</li>
+            <li  class="m0">R</li>
+            <li  class="m0">R</li>
+            <li  class="m0">Y</li>
+            <li  class="ggg">-</li>
+            <li  class="e1">C</li>
+            <li  class="e1">H</li>
+            <li  class="e1">R</li>
+            <li  class="e1">I</li>
+            <li  class="e1">S</li>
+            <li  class="e1">T</li>
+            <li  class="e1">M</li>
+            <li  class="e1">A</li>
+            <li  class="e1">S</li>
+        </ul>
+    </div>
+    
+    <div class="year">
+        <ul>
+            <li class="year12">2</li>
+            <li class="year12">0</li>
+            <li class="year12">2</li>
+            <li class="year12">3</li>
+        </ul>
+    </div>
+    <div class="snow-of-mouse" id="snowContainer"></div>
+
+
+    <div id="musicPlayer">
+        <div id="nameMusic" class="nameMusic"></div>
+        <audio id="myAudio" controls  loop ontimeupdate="updateLyrics()">
+            <source id="audioSource" src= "" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <!-- <div id="lyricsDisplay"></div> -->
+    </div>
+    <script>
+        document.addEventListener("mousemove", function() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        });
+        </script>
+</body>
+</html>
+<script>
+ 
+</script>
